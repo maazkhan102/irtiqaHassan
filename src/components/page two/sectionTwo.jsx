@@ -147,7 +147,7 @@ const PageTwoSectionTwo = () => {
                                         <div className="absolute -top-5 right-0 w-full h-[1.5px] bg-[#707070]" />
                                         {slide?.tag}
                                     </div>
-                                    <div className="text-[#515151] text-[45px] nigelina leading-12 w-[60%]">
+                                    <div className="text-[#515151] text-[35px] md:text-[45px] nigelina leading-12 w-[60%]">
                                         {slide?.main_heading}
                                     </div>
                                     <div className="text-[#515151] text-[13px] w-[60%]">

@@ -5,26 +5,27 @@ import test3 from "../../assets/test-3.jpg";
 import test4 from "../../assets/test-4.jpg";
 import horizontalImage from "../../assets/horizontalImage.png";
 import residentalbg from "../../assets/residential-bg.jpg";
+import { Image } from 'antd';
 
 const PageThreeSectionOne = () => {
     return (
-        <div className="flex flex-col">
+        <div className=" flex flex-col">
             <div className="grid grid-cols-2 h-1/2">
-                <img className="max-w-full object-cover w-full h-full transition-transform duration-400 hover:scale-115" src={hs1} />
-                <img className="max-w-full object-cover w-full h-full transition-transform duration-400 hover:scale-115" src={residentalbg} />
+                <Image height={"100%"} width={"100%"} className="max-w-full object-cover" src={hs1} />
+                <Image height={"100%"} width={"100%"} className="max-w-full object-cover" src={residentalbg} />
             </div>
             <div className="grid grid-cols-12 h-1/2">
                 <div className="col-span-8 flex flex-col">
                     <div className="grid grid-cols-2 h-1/2">
-                        <img className="max-w-full object-cover w-full h-full transition-transform duration-400 hover:scale-115" src={test2} />
-                        <img className="max-w-full object-cover w-full h-full transition-transform duration-400 hover:scale-115" src={test3} />
+                        <Image height={"100%"} width={"100%"} className="max-w-full object-cover" src={test2} />
+                        <Image height={"100%"} width={"100%"} className="max-w-full object-cover" src={test3} />
                     </div>
                     <div className="h-1/2">
-                        <img className="max-w-full object-cover w-full h-full transition-transform duration-400 hover:scale-115" src={test4} />
+                        <Image height={"100%"} width={"100%"} className="max-w-full object-cover" src={test4} />
                     </div>
                 </div>
                 <div className="col-span-4">
-                    <img className="max-w-full object-cover w-full h-full transition-transform duration-400 hover:scale-115" src={horizontalImage} />
+                    <Image height={"100%"} width={"100%"} className="max-w-full object-cover" src={horizontalImage} />
                 </div>
             </div>
         </div>

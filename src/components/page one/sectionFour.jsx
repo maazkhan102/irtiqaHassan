@@ -45,7 +45,7 @@ const PageOneSectionFour = () => {
             {/* Title and Border Lines */}
             <div className="relative flex items-center justify-center z-[10]">
                 <div className="hidden md:flex absolute left-0 top-[85px] w-[53%] border-t border-white"></div>
-                <h2 className="absolute top-16 md:left-[55%] left-[20%] text-[50px] nigelina text-white leading-14 tracking-wider">
+                <h2 className="text-[35px] text-[45px] absolute top-16 md:left-[55%] left-[20%] text-[50px] nigelina text-white leading-14 tracking-wider">
                     CUSTOMER <br /> STORIES
                 </h2>
                 <div className="hidden md:flex absolute right-0 top-[140px] w-[31%] border-t border-white"></div>

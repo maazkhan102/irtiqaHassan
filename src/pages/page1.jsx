@@ -4,10 +4,12 @@ import PageOneSectionTwo from '../components/page one/sectionTwo'
 import PageOneSectionThree from '../components/page one/sectionThree'
 import PageOneSectionFour from '../components/page one/sectionFour'
 import PageTwoSectionTwo from '../components/page two/sectionTwo'
+import Banner from '../components/page one/Banner'
 
 const Page1 = () => {
   return (
-    <>
+    <>  
+        <Banner />
         <PageOneSectionOne/>
         <PageOneSectionTwo/>
         <PageTwoSectionTwo/>

@@ -11,7 +11,7 @@ const PageTwoSectionThree = () => {
     return (
         <div className="flex flex-col h-screen">
             <div className="flex items-center justify-center px-5 pt-5 md:!mt-10">
-                <span className="text-[45px] nigelina uppercase text-[#515151] relative">
+                <span className="text-[35px] md:text-[45px] nigelina uppercase text-[#515151] relative">
                     <span className="absolute top-[50%] -left-20 w-[50px] h-[2px] bg-[#C0A07A]" />
                     <span className="hidden md:flex absolute top-[50%] -right-20 w-[50px] h-[2px] bg-[#C0A07A]" />
                     Explore your retreat
