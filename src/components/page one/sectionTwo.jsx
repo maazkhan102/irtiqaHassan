@@ -21,23 +21,23 @@ const PageOneSectionTwo = () => {
 
     const data = [
         {
-            head: "RESIDENTIAL SPACES",
-            url: "https://67443c.myshopify.com/pages/residential",
-            desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
+            head: "Modern Luxury",
+            url: "/modern-luxury",
+            desc: "Experience modern luxury redefined in a space thoughtfully designed by IHI. With a perfect blend of clean lines, rich textures, and elegant details, the design offers a serene yet sophisticated environment that reflects contemporary taste and timeless style.",
         },
         {
             head: "COMMERCIAL CONSTRUCTION",
-            url: "https://67443c.myshopify.com/pages/residential",
+            url: "/modern-luxury",
             desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
         },
         {
             head: "ARCHITECTURAL SPACES",
-            url: "https://67443c.myshopify.com/pages/residential",
+            url: "/modern-luxury",
             desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
         },
         {
             head: "FURNITURE",
-            url: "https://67443c.myshopify.com/pages/residential",
+            url: "/modern-luxury",
             desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
         },
     ];

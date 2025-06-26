@@ -1,14 +1,12 @@
 import React from 'react'
-import PageThreeSectionOne from '../components/page three/sectionOne'
-import Banner from '../components/page one/Banner'
+import ProjectDetail from '../components/Detail/projectDetail'
 
-const Page1 = () => {
+const Page3 = () => {
   return (
     <>
-        <Banner />
-        <PageThreeSectionOne/>
+       <ProjectDetail />
     </>
   )
 }
 
-export default Page1
+export default Page3
