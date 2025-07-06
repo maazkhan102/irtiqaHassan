@@ -3,7 +3,8 @@ import PageOneSectionOne from '../page one/sectionOne'
 import PageOneSectionTwo from '../page one/sectionTwo'
 import PageOneSectionFour from '../page one/sectionFour'
 import PageTwoSectionTwo from '../page two/Slider'
-import Banner from '../page one/Banner'
+import Banner from '../page one/Banner';
+import SmoothScroll from '../../components/page one/sectionThree'
 // Image Imports
 import hs1 from "../../assets/hs-1.png";
 import test2 from "../../assets/test-2.jpg";
@@ -91,6 +92,7 @@ const CategoryListing = () => {
         />
         <PageOneSectionOne/>
         <PageOneSectionTwo/>
+        <SmoothScroll />
         <PageTwoSectionTwo
             sliderData = {slides}
         />

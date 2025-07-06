@@ -1,8 +1,8 @@
 import React from 'react'
-import PageTwoSectionOne from '../../components/page two/sectionOne'
+import PageTwoSectionOne from '../page two/sectionOne'
 import PageTwoSectionTwo from '../page two/Slider'
-import PageTwoSectionThree from '../../components/page two/sectionThree'
-import Banner from '../../components/page one/Banner'
+import PageTwoSectionThree from '../page two/sectionThree'
+import Banner from '../page one/Banner'
 // Image Imports
 import ml1 from "../../assets/demoImages/d-bgImg.png";
 import ml2 from "../../assets/demoImages/ml2.jpg";
@@ -13,7 +13,7 @@ import test2 from "../../assets/test-2.jpg";
 import test3 from "../../assets/test-3.jpg";
 import test4 from "../../assets/test-4.jpg";
 
-const ModernLuxury = () => {
+const Residential = () => {
     const slides = [
             {
                 images: {
@@ -104,4 +104,4 @@ const ModernLuxury = () => {
   )
 }
 
-export default ModernLuxury;
+export default Residential;

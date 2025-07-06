@@ -21,23 +21,23 @@ const PageOneSectionTwo = () => {
 
     const data = [
         {
-            head: "Modern Luxury",
-            url: "/modern-luxury",
+            head: "Residential",
+            url: "/residential",
             desc: "Experience modern luxury redefined in a space thoughtfully designed by IHI. With a perfect blend of clean lines, rich textures, and elegant details, the design offers a serene yet sophisticated environment that reflects contemporary taste and timeless style.",
         },
         {
             head: "COMMERCIAL CONSTRUCTION",
-            url: "/modern-luxury",
+            url: "/residential",
             desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
         },
         {
             head: "ARCHITECTURAL SPACES",
-            url: "/modern-luxury",
+            url: "/residential",
             desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
         },
         {
             head: "FURNITURE",
-            url: "/modern-luxury",
+            url: "/residential",
             desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
         },
     ];

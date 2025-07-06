@@ -1,10 +1,10 @@
 import React from 'react'
-import ModernLuxury from '../components/categories/modernLuxury'
+import Residential from '../components/categories/Residential'
 
 const Page2 = () => {
   return (
     <>
-        <ModernLuxury />
+        <Residential />
     </>
   )
 }
