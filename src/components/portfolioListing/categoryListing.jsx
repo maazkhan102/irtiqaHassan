@@ -77,22 +77,30 @@ const CategoryListing = () => {
 
   return (
     <>  
-        <Banner 
-            title={
-                <>
-                  Far From Ordinary,<br />Close To Perfect!
-                </>
-            }
-            description={
-                <>
-                    What matters to us is timeless design,  <br />
-                    sustainable quality and ecological awareness.
-                </>
-            }            
+        <Banner
+  className="listingBanner"
+  title={
+    <>
+      Far From Ordinary,<br />Close To Perfect!
+    </>
+  }
+  description={
+    <>
+      What matters to us is timeless design,  <br />
+      sustainable quality and ecological awareness.
+    </>
+  }
+/>
+
+        <PageOneSectionOne
+            title="Our Portfolio"
+            description="IHI is a high-end Architecture, Interior Design and Furniture studio driven by exquisite taste, unparalleled service and unmatched quality. From planning spaces with utmost precision, creating unique styles from Modern Luxury to French Parisian and executing designs with high-end furniture and finishes. Be it residential, commercial or retail, at IHI, we don't just design interiors, we design a lifestyle."
         />
-        <PageOneSectionOne/>
         <PageOneSectionTwo/>
-        <PageOneSectionOne/>
+        <PageOneSectionOne
+            title="DESIGN PHILOSOPHY"
+            description="A timeless design is built on intangible factors such as dreams and inspiration. Truly great Architecture and Interior is not controlled by catchphrases of the times. It transcends time and space. It is about design that is modern and classic, it is about design that is exclusive and comfortable. It is about design that lasts, where function meets art in a space that is both timeless and memorable."
+        />
         {/* <SmoothScroll />
         <PageTwoSectionTwo
             sliderData = {slides}

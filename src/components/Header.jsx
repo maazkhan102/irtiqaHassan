@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import logo from "../assets/IH-logo.svg";
 import {
   Dialog,
   DialogPanel,
@@ -43,8 +44,8 @@ export default function Header() {
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img
-              alt="IH"
-              src="../src/assets/IH-logo.svg"
+              src={logo}
+              alt="IH" 
               className="h-16 w-auto"
             />
           </a>
@@ -66,7 +67,10 @@ export default function Header() {
           <a href="https://irtiqahassan.com/pages/about-us" className="text-[13px] font-normal text-white">
             ABOUT US 
           </a>
-          <Popover className="relative">
+          <a href="https://irtiqahassan.netlify.app/listing" className="text-[13px] font-normal text-white">
+            PORTFOLIO
+          </a>
+          {/* <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm font-normal text-white">
               PORTFOLIO
             </PopoverButton>
@@ -107,7 +111,7 @@ export default function Header() {
                 ))}
               </div>
             </PopoverPanel>
-          </Popover>
+          </Popover> */}
 
           <a href="https://irtiqahassan.com/collections/high-end-furniture" className="text-[13px] font-normal text-white">
             PRODUCTS

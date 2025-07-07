@@ -2,5 +2,17 @@
 .bannerMain{
     background-image: url("../src/assets/demoImages/d-bgImg.png");
 }
+.listingBanner{
+    background-image: url("../src/assets/listingBanner.png");
+}
+.bannerMainresidential{
+    background-image: url("../src/assets/residentialBanner.png");
+}
+.bannerMaincommercial{
+    background-image: url("../src/assets/commercialBanner.jpg");
+}
+.bannerMainarchitecture{
+    background-image: url("../src/assets/architectureBanner.png");
+}
 
 /* Banner Section css eng */

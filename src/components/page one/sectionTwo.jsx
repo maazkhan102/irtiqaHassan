@@ -23,22 +23,22 @@ const PageOneSectionTwo = () => {
         {
             head: "Residential",
             url: "/residential",
-            desc: "Experience modern luxury redefined in a space thoughtfully designed by IHI. With a perfect blend of clean lines, rich textures, and elegant details, the design offers a serene yet sophisticated environment that reflects contemporary taste and timeless style.",
+            desc: "Transforming spaces into deeply personal sanctuaries, we design homes that reflect your lifestyle, values, and individuality. From concept to completion, every detail is thoughtfully curated to bring comfort, beauty, and timeless elegance into your everyday life",
         },
         {
             head: "COMMERCIAL CONSTRUCTION",
             url: "/commercial",
-            desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
+            desc: "We craft dynamic commercial environments that blend functionality with striking aesthetics. Whether it's a boutique, office, or hospitality space, our designs aim to enhance brand identity, inspire productivity, and elevate the user experience",
         },
         {
             head: "ARCHITECTURAL SPACES",
-            url: "/residential",
-            desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
+            url: "/architectural",
+            desc: "At the intersection of form and function, our architectural designs are rooted in context, purpose, and innovation. We approach every project with a holistic vision—balancing spatial planning, environmental harmony, and structural integrity",
         },
         {
             head: "FURNITURE",
-            url: "/residential",
-            desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
+            url: "/furniture",
+            desc: "Our bespoke furniture pieces are more than just functional—they’re sculptural statements. Designed with precision and crafted with care, each piece complements the spaces we create while standing beautifully on its own",
         },
     ];
 

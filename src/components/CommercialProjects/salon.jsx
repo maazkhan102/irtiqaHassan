@@ -37,19 +37,21 @@ const Salon = () => {
   ];
   return (
     <>
-        <Banner 
-            title={
-                <>
-                  Far From Ordinary,<br />Close To Perfect!
-                </>
-            }
-            description={
-                <>
-                    What matters to us is timeless design,  <br />
-                    sustainable quality and ecological awareness.
-                </>
-            }            
-        />
+        <Banner
+  className="bannerMaincommercial"
+  title={
+    <>
+      Far From Ordinary,<br />Close To Perfect!
+    </>
+  }
+  description={
+    <>
+      What matters to us is timeless design,  <br />
+      sustainable quality and ecological awareness.
+    </>
+  }
+/>
+
          <>
       {imageGridSections.map((section, index) => (
         <PageThreeSectionOne key={index} imageGridData={section} />
