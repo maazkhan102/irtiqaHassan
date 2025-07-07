@@ -92,10 +92,11 @@ const CategoryListing = () => {
         />
         <PageOneSectionOne/>
         <PageOneSectionTwo/>
-        <SmoothScroll />
+        <PageOneSectionOne/>
+        {/* <SmoothScroll />
         <PageTwoSectionTwo
             sliderData = {slides}
-        />
+        /> */}
         {/* <PageOneSectionThree/> */}
         <PageOneSectionFour/>
     </>

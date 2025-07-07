@@ -1,10 +1,10 @@
 import React from 'react'
-import ProjectDetail from '../components/Detail/projectDetail'
+import ModernLuxury from '../components/ResidentialProjects/modernLuxury'
 
 const Page3 = () => {
   return (
     <>
-       <ProjectDetail />
+       <ModernLuxury />
     </>
   )
 }

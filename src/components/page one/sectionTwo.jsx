@@ -27,7 +27,7 @@ const PageOneSectionTwo = () => {
         },
         {
             head: "COMMERCIAL CONSTRUCTION",
-            url: "/residential",
+            url: "/commercial",
             desc: "Discover unmatched privacy and comfort in every corner of our home. Enjoy elegant dining spaces, cozy living spaces, and stylish bedrooms, all thoughtfully designed for your ultimate relaxation.",
         },
         {

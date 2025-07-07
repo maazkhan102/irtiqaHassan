@@ -3,7 +3,6 @@ import PageTwoSectionOne from '../page two/sectionOne'
 import PageTwoSectionTwo from '../page two/Slider'
 import PageTwoSectionThree from '../page two/sectionThree'
 import Banner from '../page one/Banner'
-import SmoothScroll from '../../components/page one/sectionThree';
 // Image Imports
 import ml1 from "../../assets/demoImages/d-bgImg.png";
 import ml2 from "../../assets/demoImages/ml2.jpg";
@@ -14,7 +13,7 @@ import test2 from "../../assets/test-2.jpg";
 import test3 from "../../assets/test-3.jpg";
 import test4 from "../../assets/test-4.jpg";
 
-const Residential = () => {
+const Commercial = () => {
     const slides = [
             {
                 images: {
@@ -97,13 +96,12 @@ const Residential = () => {
             title="What matters to us is a timeless design, sustainable, quality and ecological awareness."
             description="IHI is a high-end Architecture, Interior Design and Furniture studio driven by exquisite taste, unparalleled service and unmatched quality. From planning spaces with utmost precision, creating unique styles from Modern Luxury to French Parisian and executing designs with high-end furniture and finishes. Be it residential, commercial or retail, at IHI, we don't just design interiors, we design a lifestyle."
         />
-        <SmoothScroll />
-        {/* <PageTwoSectionTwo
+        <PageTwoSectionTwo
             sliderData = {slides}
-        /> */}
+        />
         <PageTwoSectionThree/>
     </>
   )
 }
 
-export default Residential;
+export default Commercial;

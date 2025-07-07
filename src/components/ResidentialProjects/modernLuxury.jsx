@@ -1,6 +1,6 @@
 import React from 'react'
-import PageThreeSectionOne from '../../components/page three/sectionOne'
-import Banner from '../../components/page one/Banner'
+import PageThreeSectionOne from '../page three/sectionOne'
+import Banner from '../page one/Banner'
 // image imports
 import m1 from "../../assets/demoImages/m1.png";
 import m2 from "../../assets/demoImages/m2.png";
@@ -15,7 +15,7 @@ import m10 from "../../assets/demoImages/m10.png";
 import m11 from "../../assets/demoImages/m11.png";
 import m12 from "../../assets/demoImages/m12.png";
 
-const ProjectDetail = () => {
+const ModernLuxury = () => {
   const imageGridSections = [
     {
       topRow: [m7, m11],
@@ -56,4 +56,4 @@ const ProjectDetail = () => {
   )
 }
 
-export default ProjectDetail
+export default ModernLuxury
