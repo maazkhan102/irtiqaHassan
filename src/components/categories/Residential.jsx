@@ -4,6 +4,7 @@ import PageTwoSectionTwo from '../page two/Slider'
 import PageTwoSectionThree from '../page two/sectionThree'
 import Banner from '../page one/Banner'
 import SmoothScroll from '../../components/page one/sectionThree';
+import SmoothScrollMobile from '../smoothScrollMobile'
 // Image Imports
 // import ml1 from "../../assets/demoImages/d-bgImg.png";
 import ml2 from "../../assets/demoImages/ml2.jpg";
@@ -117,9 +118,18 @@ const Residential = () => {
             title="Residential"
             description="Transforming spaces into deeply personal sanctuaries, we design homes that reflect your lifestyle, values, and individuality. From concept to completion, every detail is thoughtfully curated to bring comfort, beauty, and timeless elegance into your everyday life."
         />
+
+        <div className='hidden sm:block'>
         <SmoothScroll 
-            sliderData = {slides}
-        />
+                    sliderData = {slides}
+                />
+        </div>
+        <div className='block sm:hidden'>
+            <SmoothScrollMobile
+                    sliderData = {slides}
+                />
+        </div>
+       
         {/* <PageTwoSectionTwo
             sliderData = {slides}
         /> */}

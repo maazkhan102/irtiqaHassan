@@ -17,6 +17,7 @@ import s1 from "../../assets/finalImages/salon/s4.png";
 import s2 from "../../assets/finalImages/salon/s3.png";
 import s3 from "../../assets/finalImages/salon/s6.png";
 import s4 from "../../assets/finalImages/salon/s7.png";
+import SmoothScrollMobile from '../smoothScrollMobile'
 
 
 const Commercial = () => {
@@ -78,9 +79,16 @@ const Commercial = () => {
             title="Commercial"
             description="We craft dynamic commercial environments that blend functionality with striking aesthetics. Whether it's a boutique, office, or hospitality space, our designs aim to enhance brand identity, inspire productivity, and elevate the user experience"
         />
-         <SmoothScroll 
-            sliderData = {slides}
-        />
+         <div className='hidden sm:block'>
+        <SmoothScroll 
+                    sliderData = {slides}
+                />
+        </div>
+        <div className='block sm:hidden'>
+            <SmoothScrollMobile
+                    sliderData = {slides}
+                />
+        </div>
         {/* <PageTwoSectionTwo
             sliderData = {slides}
         /> */}
