@@ -27,7 +27,7 @@ const Showroom = () => {
   className="bannerMaincommercial"
   title={
     <>
-      Far From Ordinary,<br />Close To Perfect!
+      Bespoke Design. Impeccable Detail. Timeless Luxury
     </>
   }
   description={

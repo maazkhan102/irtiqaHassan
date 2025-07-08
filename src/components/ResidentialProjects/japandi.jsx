@@ -25,34 +25,27 @@ import j17 from "../../assets/finalImages/japandi/j17.png";
 const Japandi = () => {
   const imageGridSections = [
     {
-      topRow: [j1, j2],
+      topRow: [j1, j13],
       bottomRow: {
-        leftGrid: [j3, j4, j5],
-        rightImage: j6
+        leftGrid: [j15, j16, j17],
+        rightImage: j9
       }
     },
     {
-      topRow: [j7, j8],
+      topRow: [j7, j14],
       bottomRow: {
         leftGrid: [j9, j10, j11],
         rightImage: j12
       }
     },
-    {
-      topRow: [j13, j14],
-      bottomRow: {
-        leftGrid: [j15, j16, j17],
-        rightImage: j9
-      }
-    }
   ];
   return (
     <>
         <Banner
-  className="bannerMainresidential"
+  className="bannerMainjapandi"
   title={
     <>
-      Far From Ordinary,<br />Close To Perfect!
+      Bespoke Design. Impeccable Detail. Timeless Luxury
     </>
   }
   description={

@@ -23,18 +23,46 @@ import a18 from "../../assets/finalImages/architectural/a18.png";
 import a19 from "../../assets/finalImages/architectural/a19.png";
 import a20 from "../../assets/finalImages/architectural/a20.png";
 import a21 from "../../assets/finalImages/architectural/a21.png";
+import a22 from "../../assets/finalImages/architectural/a22.jpg";
+import a23 from "../../assets/finalImages/architectural/a23.jpg";
+import a24 from "../../assets/finalImages/architectural/a24.jpg";
+import a25 from "../../assets/finalImages/architectural/a25.jpg";
+import a26 from "../../assets/finalImages/architectural/a26.jpg";
+import a27 from "../../assets/finalImages/architectural/a27.jpg";
+import a28 from "../../assets/finalImages/architectural/a28.jpg";
+import a29 from "../../assets/finalImages/architectural/a29.png";
+import a30 from "../../assets/finalImages/architectural/a30.png";
+import a31 from "../../assets/finalImages/architectural/a31.png";
+import a32 from "../../assets/finalImages/architectural/a32.png";
+
+
+
 
 
 
 const Architecture = () => {
   const imageGridSections = [
     {
-      topRow: [a1, a2],
+      topRow: [a22, a23],
       bottomRow: {
-        leftGrid: [a3, a4, a5],
-        rightImage: a6
+        leftGrid: [a31, a25, a26],
+        rightImage: a27
       }
     },
+    {
+      topRow: [a28, a19],
+      bottomRow: {
+        leftGrid: [a30, a31, a32],
+        rightImage: a8
+      }
+    },
+    // {
+    //   topRow: [a1, a2],
+    //   bottomRow: {
+    //     leftGrid: [a3, a4, a5],
+    //     rightImage: a6
+    //   }
+    // },
     {
       topRow: [a7, a8],
       bottomRow: {
@@ -43,7 +71,7 @@ const Architecture = () => {
       }
     },
     {
-      topRow: [a13, a14],
+      topRow: [a27, a14],
       bottomRow: {
         leftGrid: [a15, a16, a17],
         rightImage: a18
@@ -63,7 +91,7 @@ const Architecture = () => {
   className="bannerMainarchitecture"
   title={
     <>
-      Far From Ordinary,<br />Close To Perfect!
+      Bespoke Design. Impeccable Detail. Timeless Luxury
     </>
   }
   description={

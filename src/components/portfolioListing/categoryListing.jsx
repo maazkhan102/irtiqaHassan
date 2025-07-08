@@ -25,7 +25,7 @@ const CategoryListing = () => {
                   },
                   tag: "privacy & space",
                   main_heading: "EXPLORE OUR HOME",
-                  description: "From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring sea views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance.",
+                  description: "From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance",
                   url: "https://67443c.myshopify.com/pages/gallery"
               },
               {
@@ -40,7 +40,7 @@ const CategoryListing = () => {
                   },
                   tag: "privacy & space",
                   main_heading: "EXPLORE OUR OFFICE",
-                  description: "From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring sea views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance.",
+                  description: "From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance",
                   url: "https://67443c.myshopify.com/pages/gallery"
               },
               {
@@ -55,7 +55,7 @@ const CategoryListing = () => {
                   },
                   tag: "privacy & space",
                   main_heading: "EXPLORE OUR HOME",
-                  description: "From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring sea views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance.",
+                  description: "From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance",
                   url: "https://67443c.myshopify.com/pages/gallery"
               },
               {
@@ -70,7 +70,7 @@ const CategoryListing = () => {
                   },
                   tag: "privacy & space",
                   main_heading: "EXPLORE OUR OFFICE",
-                  description: "From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring sea views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance.",
+                  description: "From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance",
                   url: "https://67443c.myshopify.com/pages/gallery"
               },
           ];
@@ -81,13 +81,12 @@ const CategoryListing = () => {
   className="listingBanner"
   title={
     <>
-      Far From Ordinary,<br />Close To Perfect!
+      Design. Detail. Luxury
     </>
   }
   description={
     <>
-      What matters to us is timeless design,  <br />
-      sustainable quality and ecological awareness.
+      A timeless design is built on intangible factors such as dreams and inspirations
     </>
   }
 />

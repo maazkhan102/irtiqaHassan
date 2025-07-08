@@ -53,8 +53,8 @@ const HorizontalScroll = ({sliderData}) => {
                   <div className="text-[#515151] text-[13px]">
                     {section.description}
                   </div>
-                  <button className="cursor-pointer flex items-center justify-center gap-2 px-3 py-2 max-w-fit bg-black text-white rounded-md transition duration-300">
-                    <a href={section.url} className="text-[10px] font-medium">View More</a>
+                  <button className="cursor-pointer flex items-center justify-center gap-2 px-4 py-3 max-w-fit bg-black text-white rounded-md transition duration-300">
+                    <a href={section.url} className="text-[13px] font-medium">View More</a>
                     <ArrowRight size={13} />
                   </button>
                 </div>

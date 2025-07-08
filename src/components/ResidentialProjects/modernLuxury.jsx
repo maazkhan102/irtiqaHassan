@@ -24,10 +24,38 @@ import m19 from "../../assets/finalImages/modernLuxury/ml19.jpg";
 import m20 from "../../assets/finalImages/modernLuxury/ml20.jpg";
 import m21 from "../../assets/finalImages/modernLuxury/ml21.jpg";
 import m22 from "../../assets/finalImages/modernLuxury/ml22.jpg";
+import m23 from "../../assets/finalImages/modernLuxury/ml23.jpg";
+import m24 from "../../assets/finalImages/modernLuxury/ml24.jpg";
+import m25 from "../../assets/finalImages/modernLuxury/ml25.jpg";
+import m26 from "../../assets/finalImages/modernLuxury/ml26.jpg";
+import m27 from "../../assets/finalImages/modernLuxury/ml27.jpg";
+import m28 from "../../assets/finalImages/modernLuxury/ml28.jpg";
+import m29 from "../../assets/finalImages/modernLuxury/ml29.jpg";
+import m30 from "../../assets/finalImages/modernLuxury/ml30.jpg";
+import m31 from "../../assets/finalImages/modernLuxury/ml31.jpg";
+import m32 from "../../assets/finalImages/modernLuxury/ml32.jpg";
+import m33 from "../../assets/finalImages/modernLuxury/ml33.jpg";
+import m34 from "../../assets/finalImages/modernLuxury/ml34.jpg";
+import m35 from "../../assets/finalImages/modernLuxury/ml35.jpg";
+import m36 from "../../assets/finalImages/modernLuxury/ml36.jpg";
 
 
 const ModernLuxury = () => {
   const imageGridSections = [
+    {
+      topRow: [m23, m24],
+      bottomRow: {
+        leftGrid: [m24, m25, m26],
+        rightImage: m27
+      }
+  },
+  {
+    topRow: [m28, m29],
+    bottomRow: {
+      leftGrid: [m30, m31, m32],
+      rightImage: m33
+    }
+},
     {
       topRow: [m7, m11],
       bottomRow: {
@@ -45,7 +73,7 @@ const ModernLuxury = () => {
     {
       topRow: [m13, m14],
       bottomRow: {
-        leftGrid: [m15, m16, m17],
+        leftGrid: [m15, m16, m36],
         rightImage: m18
       }
     },
@@ -56,6 +84,7 @@ const ModernLuxury = () => {
         rightImage: m11
       }
     }
+
   ];
   return (
     <>
@@ -63,7 +92,7 @@ const ModernLuxury = () => {
   className="bannerMainresidential"
   title={
     <>
-      Far From Ordinary,<br />Close To Perfect!
+      Bespoke Design. Impeccable Detail. Timeless Luxury
     </>
   }
   description={

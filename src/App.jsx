@@ -21,6 +21,10 @@ import Page8 from './pages/page8';
 import Page9 from './pages/page9';
 import Page10 from './pages/page10';
 import Page2p2 from './pages/page2p2';
+import Page11 from './pages/page11';
+import Page12 from './pages/page12';
+import Page13 from './pages/page13';
+import Page14 from './pages/page14';
 
 
 
@@ -46,6 +50,10 @@ function App() {
         {/* Commercial childs */}
         <Route path="/commercial/showroom" element={<Page4 />} />
         <Route path="/commercial/salon" element={<Page5 />} />
+        <Route path="/commercial/gym" element={<Page11 />} />
+        <Route path="/commercial/corporate" element={<Page12 />} />
+        <Route path="/commercial/hospitality" element={<Page13 />} />
+        <Route path="/commercial/retail" element={<Page14 />} />
       </Routes>
       <Footer />
     </Router>

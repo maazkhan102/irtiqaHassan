@@ -62,10 +62,10 @@ const Contemporary = () => {
   return (
     <>
         <Banner
-  className="bannerMainresidential"
+  className="bannerMaincontemporary"
   title={
     <>
-      Far From Ordinary,<br />Close To Perfect!
+      Bespoke Design. Impeccable Detail. Timeless Luxury
     </>
   }
   description={

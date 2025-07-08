@@ -90,7 +90,7 @@ const Residential = () => {
                 // },
                 tag: "residential",
                 main_heading: "PARISIAN",
-                description: "From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring sea views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance.",
+                description: "From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance",
                 url: "/residential/parisian",
                 img1: p1,
                 img2: p2 
@@ -103,15 +103,14 @@ const Residential = () => {
             className="bannerMainresidential"
             title={
                 <>
-                Far From Ordinary,<br />Close To Perfect!
+                Bespoke Design. Impeccable Detail. Timeless Luxury
                 </>
             }
-            description={
-                <>
-                What matters to us is timeless design,  <br />
-                sustainable quality and ecological awareness.
-                </>
-            }
+            // description={
+            //     <>
+            //     inspiration to elegance, every detail tells a story
+            //     </>
+            // }
             />
 
         <PageTwoSectionOne

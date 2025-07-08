@@ -45,9 +45,9 @@ const PageTwoSectionThree = () => {
                                     transition={{ duration: 0.3, ease: "easeInOut" }}
                                 />
                             )}
-                            <span className="nigelina text-[20px] md:text-[35px] tracking-wider z-[2] uppercase text-white">
+                            <a href="https://irtiqahassan.netlify.app/residential" className="nigelina text-[20px] md:text-[35px] tracking-wider z-[2] uppercase text-white">
                                 Residential
-                            </span>
+                            </a>
                         </motion.div>
 
                         <motion.div
@@ -73,9 +73,9 @@ const PageTwoSectionThree = () => {
                                 exit={{ opacity: 0 }}
                                 transition={{ duration: 0.3, ease: "easeInOut" }}
                             />}
-                            <span className="nigelina text-[20px] md:text-[35px] tracking-wider z-[1] uppercase text-white">
+                            <a href="https://irtiqahassan.netlify.app/commercial" className="nigelina text-[20px] md:text-[35px] tracking-wider z-[1] uppercase text-white">
                                 Commercial
-                            </span>
+                            </a>
                         </motion.div>
                     </div>
                     <div className="flex relative h-1/2 gap-3 transition-all duration-300">
@@ -104,9 +104,9 @@ const PageTwoSectionThree = () => {
                                     transition={{ duration: 0.3, ease: "easeInOut" }}
                                 />
                             )}
-                            <span className="nigelina text-[20px] md:text-[35px] tracking-wider z-[2] uppercase text-white">
+                            <a href="https://irtiqahassan.netlify.app/architectural" className="nigelina text-[20px] md:text-[35px] tracking-wider z-[2] uppercase text-white">
                                 Architecture
-                            </span>
+                            </a>
                         </motion.div>
 
                         <motion.div
@@ -132,9 +132,9 @@ const PageTwoSectionThree = () => {
                                 exit={{ opacity: 0 }}
                                 transition={{ duration: 0.3, ease: "easeInOut" }}
                             />}
-                            <span className="nigelina text-[20px] md:text-[35px] tracking-wider z-[1] uppercase text-white">
+                            <a href="https://irtiqahassan.netlify.app/furniture" className="nigelina text-[20px] md:text-[35px] tracking-wider z-[1] uppercase text-white">
                                 Furniture
-                            </span>
+                            </a>
                         </motion.div>
                     </div>
                   

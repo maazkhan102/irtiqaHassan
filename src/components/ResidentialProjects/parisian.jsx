@@ -20,7 +20,7 @@ import p15 from "../../assets/finalImages/parisian/p15.png";
 import p16 from "../../assets/finalImages/parisian/p16.png";
 import p17 from "../../assets/finalImages/parisian/p17.png";
 import p18 from "../../assets/finalImages/parisian/p18.png";
-import p19 from "../../assets/finalImages/parisian/p19.png";
+import p19 from "../../assets/finalImages/parisian/p19.jpg";
 import p20 from "../../assets/finalImages/parisian/p20.png";
 import p21 from "../../assets/finalImages/parisian/p21.png";
 import p22 from "../../assets/finalImages/parisian/p22.png";
@@ -64,10 +64,10 @@ const Parisian = () => {
   return (
     <>
         <Banner
-  className="bannerMainresidential"
+  className="bannerMainparisian"
   title={
     <>
-      Far From Ordinary,<br />Close To Perfect!
+      Bespoke Design. Impeccable Detail. Timeless Luxury
     </>
   }
   description={

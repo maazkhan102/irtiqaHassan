@@ -14,6 +14,20 @@ import s9 from "../../assets/finalImages/salon/s9.png";
 import s10 from "../../assets/finalImages/salon/s10.png";
 import s11 from "../../assets/finalImages/salon/s11.png";
 import s12 from "../../assets/finalImages/salon/s12.png";
+import s13 from "../../assets/finalImages/salon/s13.jpg";
+import s14 from "../../assets/finalImages/salon/s14.jpg";
+import s15 from "../../assets/finalImages/salon/s15.jpg";
+import s16 from "../../assets/finalImages/salon/s16.jpg";
+import s17 from "../../assets/finalImages/salon/s17.jpg";
+// import s18 from "../../assets/finalImages/salon/s18.jpg";
+import s19 from "../../assets/finalImages/salon/s19.jpg";
+import s20 from "../../assets/finalImages/salon/s20.jpg";
+import s21 from "../../assets/finalImages/salon/s21.jpg";
+import s22 from "../../assets/finalImages/salon/s22.jpg";
+import s23 from "../../assets/finalImages/salon/s23.jpg";
+import s24 from "../../assets/finalImages/salon/s24.jpg";
+import s25 from "../../assets/finalImages/salon/s25.jpg";
+import s26 from "../../assets/finalImages/salon/s26.jpg";
 import Banner from '../page one/Banner';
 import PageThreeSectionOne from '../page three/sectionOne';
 
@@ -21,17 +35,17 @@ import PageThreeSectionOne from '../page three/sectionOne';
 const Salon = () => {
   const imageGridSections = [
     {
-      topRow: [s7, s8],
+      topRow: [s13, s14],
       bottomRow: {
-        leftGrid: [s9, s10, s11],
-        rightImage: s12
+        leftGrid: [s15, s16, s17],
+        rightImage: s25
       }
     },
     {
-      topRow: [s1, s2],
+      topRow: [s19, s20],
       bottomRow: {
-        leftGrid: [s3, s4, s5],
-        rightImage: s6
+        leftGrid: [s21, s22, s23],
+        rightImage: s24
       }
     }
   ];
@@ -41,7 +55,7 @@ const Salon = () => {
   className="bannerMaincommercial"
   title={
     <>
-      Far From Ordinary,<br />Close To Perfect!
+      Bespoke Design. Impeccable Detail. Timeless Luxury
     </>
   }
   description={

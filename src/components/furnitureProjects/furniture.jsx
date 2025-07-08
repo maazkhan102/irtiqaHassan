@@ -7,7 +7,7 @@ import f2 from "../../assets/finalImages/furniture/f2.jpg";
 import f3 from "../../assets/finalImages/furniture/f3.jpg";
 import f4 from "../../assets/finalImages/furniture/f4.jpg";
 import f5 from "../../assets/finalImages/furniture/f5.jpg";
-import f6 from "../../assets/finalImages/furniture/f6.jpg";
+// import f6 from "../../assets/finalImages/furniture/f6.jpg";
 import f7 from "../../assets/finalImages/furniture/f7.jpg";
 import f8 from "../../assets/finalImages/furniture/f8.jpg";
 import f9 from "../../assets/finalImages/furniture/f9.jpg";
@@ -71,14 +71,14 @@ import f66 from "../../assets/finalImages/furniture/f66.jpg";
 import f67 from "../../assets/finalImages/furniture/f67.jpg";
 import f68 from "../../assets/finalImages/furniture/f68.jpg";
 
-
+// f6, 37 , 32, 38
 const Furniture = () => {
   const imageGridSections = [
     {
       topRow: [f1, f2],
       bottomRow: {
         leftGrid: [f3, f4, f5],
-        rightImage: f6
+        rightImage: f5
       }
     },
     {
@@ -110,21 +110,21 @@ const Furniture = () => {
       }
     },
     {
-        topRow: [f31, f32],
+        topRow: [f31, f31],
         bottomRow: {
           leftGrid: [f33, f34, f35],
           rightImage: f36
         }
       },
       {
-          topRow: [f37, f32],
+          topRow: [f36, f33],
           bottomRow: {
             leftGrid: [f33, f34, f35],
             rightImage: f36
           }
     },
     {
-      topRow: [f37, f38],
+      topRow: [f39, f39],
       bottomRow: {
         leftGrid: [f39, f40, f41],
         rightImage: f42
@@ -169,10 +169,10 @@ const Furniture = () => {
   return (
     <>
         <Banner
-  className="bannerMain"
+  className="bannerMainfurniture"
   title={
     <>
-      Far From Ordinary,<br />Close To Perfect!
+      Bespoke Design. Impeccable Detail. Timeless Luxury
     </>
   }
   description={

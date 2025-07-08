@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import luxuryhotel from "../../assets/luxury-hotel.jpg";
-import residentialbg from "../../assets/residential-bg.jpg";
-import architecturebg from "../../assets/architecture.jpg";
-import commercialbg from "../../assets/commercialbg.jpg";
-import furniturebg from "../../assets/furniturebg.jpg";
+import residentialbg from "../../assets/residentialBanner.png";
+import architecturebg from "../../assets/architectureBG.jpg";
+import commercialbg from "../../assets/commercialBG.jpg";
+import furniturebg from "../../assets/furnitureBG.jpg";
 import { Link } from "react-router-dom";
 
 const PageOneSectionTwo = () => {
@@ -21,17 +21,17 @@ const PageOneSectionTwo = () => {
 
     const data = [
         {
-            head: "Residential",
+            head: "RESIDENTIAL",
             url: "/residential",
             desc: "Transforming spaces into deeply personal sanctuaries, we design homes that reflect your lifestyle, values, and individuality. From concept to completion, every detail is thoughtfully curated to bring comfort, beauty, and timeless elegance into your everyday life",
         },
         {
-            head: "COMMERCIAL CONSTRUCTION",
+            head: "COMMERCIAL",
             url: "/commercial",
             desc: "We craft dynamic commercial environments that blend functionality with striking aesthetics. Whether it's a boutique, office, or hospitality space, our designs aim to enhance brand identity, inspire productivity, and elevate the user experience",
         },
         {
-            head: "ARCHITECTURAL SPACES",
+            head: "ARCHITECTURE",
             url: "/architectural",
             desc: "At the intersection of form and function, our architectural designs are rooted in context, purpose, and innovation. We approach every project with a holistic vision—balancing spatial planning, environmental harmony, and structural integrity",
         },

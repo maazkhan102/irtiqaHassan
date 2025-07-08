@@ -3,16 +3,27 @@
     background-image: url("../src/assets/demoImages/d-bgImg.png");
 }
 .listingBanner{
-    background-image: url("../src/assets/listingBanner.png");
+    background-image: url("../src/assets/listingBanner.jpg");
 }
 .bannerMainresidential{
     background-image: url("../src/assets/residentialBanner.png");
 }
 .bannerMaincommercial{
-    background-image: url("../src/assets/commercialBanner.jpg");
+    background-image: url("../src/assets/commercialBG.jpg");
 }
 .bannerMainarchitecture{
-    background-image: url("../src/assets/architectureBanner.png");
+    background-image: url("../src/assets/architectureBG.jpg");
 }
-
+.bannerMainjapandi{
+    background-image: url("../src/assets/japandiBG.jpg");
+}
+.bannerMainfurniture{
+    background-image: url("../src/assets/furnitureBG.jpg");
+}
+.bannerMaincontemporary{
+    background-image: url("../src/assets/contemporaryBG.jpg");
+}
+.bannerMainparisian{
+    background-image: url("../src/assets/parisianBG.jpg");
+}
 /* Banner Section css end */

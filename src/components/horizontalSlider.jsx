@@ -66,7 +66,7 @@ const HorizontalSlider = () => {
                                             EXPLORE OUR HOME
                                         </div>
                                         <div className="text-[#515151] text-[13px]">
-                                            From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring sea views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance.
+                                            From the moment you step into the expansive living area, you’ll be immersed in the awe-inspiring views that define every room. The beautifully appointed sitting areas, elegant dining spaces, and inviting bedrooms create a refined and welcoming ambiance
                                         </div>
                                         <button className="flex items-center justify-center gap-2 px-3 py-2 max-w-fit bg-black text-white rounded-md transition duration-300">
                                             <span className="text-[10px] font-medium">View More</span>
