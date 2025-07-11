@@ -28,12 +28,25 @@ import s23 from "../../assets/finalImages/salon/s23.jpg";
 import s24 from "../../assets/finalImages/salon/s24.jpg";
 import s25 from "../../assets/finalImages/salon/s25.jpg";
 import s26 from "../../assets/finalImages/salon/s26.jpg";
+import s27 from "../../assets/finalImages/salon/s27.jpg";
+import s28 from "../../assets/finalImages/salon/s28.jpg";
+import s29 from "../../assets/finalImages/salon/s29.jpg";
+import s30 from "../../assets/finalImages/salon/s30.jpg";
+import s31 from "../../assets/finalImages/salon/s31.jpg";
+
 import Banner from '../page one/Banner';
 import PageThreeSectionOne from '../page three/sectionOne';
 
 
 const Salon = () => {
   const imageGridSections = [
+    {
+      topRow: [s26, s27],
+      bottomRow: {
+        leftGrid: [s28, s29, s30],
+        rightImage: s31
+      }
+    },
     {
       topRow: [s13, s14],
       bottomRow: {
@@ -52,7 +65,7 @@ const Salon = () => {
   return (
     <>
         <Banner
-  className="bannerMaincommercial"
+  className="bannerMainsalon"
   title={
     <>
       Bespoke Design. Impeccable Detail. Timeless Luxury

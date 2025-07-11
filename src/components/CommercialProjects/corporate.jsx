@@ -42,7 +42,7 @@ const Corporate = () => {
   return (
     <>
         <Banner
-  className="bannerMaincommercial"
+  className="bannerMaincorporate"
   title={
     <>
       Bespoke Design. Impeccable Detail. Timeless Luxury

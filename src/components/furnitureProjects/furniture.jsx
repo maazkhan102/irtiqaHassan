@@ -70,29 +70,41 @@ import f65 from "../../assets/finalImages/furniture/f65.jpg";
 import f66 from "../../assets/finalImages/furniture/f66.jpg";
 import f67 from "../../assets/finalImages/furniture/f67.jpg";
 import f68 from "../../assets/finalImages/furniture/f68.jpg";
+import f70 from "../../assets/finalImages/furniture/f70.jpg";
+import f71 from "../../assets/finalImages/furniture/f71.jpg";
+import f72 from "../../assets/finalImages/furniture/f72.jpg";
+import f73 from "../../assets/finalImages/furniture/f73.jpg";
+import f74 from "../../assets/finalImages/furniture/f74.jpg";
+import f75 from "../../assets/finalImages/furniture/f75.jpg";
+import f76 from "../../assets/finalImages/furniture/f76.jpg";
+import f77 from "../../assets/finalImages/furniture/f77.jpg";
+import f78 from "../../assets/finalImages/furniture/f78.jpg";
+import f79 from "../../assets/finalImages/furniture/f79.jpg";
+import f80 from "../../assets/finalImages/furniture/f80.jpg";
+import f81 from "../../assets/finalImages/furniture/f81.jpg";
 
-// f6, 37 , 32, 38
+
 const Furniture = () => {
   const imageGridSections = [
     {
-      topRow: [f1, f2],
+      topRow: [f70, f71],
       bottomRow: {
-        leftGrid: [f3, f4, f5],
-        rightImage: f5
+        leftGrid: [f72, f73, f74],
+        rightImage: f75
       }
     },
     {
-      topRow: [f7, f8],
+      topRow: [f76, f77],
       bottomRow: {
-        leftGrid: [f9, f10, f11],
-        rightImage: f12
+        leftGrid: [f78, f79, f80],
+        rightImage: f81
       }
     },
     {
       topRow: [f13, f14],
       bottomRow: {
-        leftGrid: [f15, f16, f17],
-        rightImage: f18
+        leftGrid: [f15, f16, f7],
+        rightImage: f11
       }
     },
     {
@@ -105,63 +117,14 @@ const Furniture = () => {
     {
       topRow: [f25, f26],
       bottomRow: {
-        leftGrid: [f27, f28, f29],
+        leftGrid: [f27, f28, f9],
         rightImage: f30
       }
     },
     {
-        topRow: [f31, f31],
-        bottomRow: {
-          leftGrid: [f33, f34, f35],
-          rightImage: f36
-        }
-      },
-      {
-          topRow: [f36, f33],
-          bottomRow: {
-            leftGrid: [f33, f34, f35],
-            rightImage: f36
-          }
-    },
-    {
-      topRow: [f39, f39],
-      bottomRow: {
-        leftGrid: [f39, f40, f41],
-        rightImage: f42
-      }
-    },
-    {
-      topRow: [f43, f44],
-      bottomRow: {
-        leftGrid: [f45, f46, f47],
-        rightImage: f47
-      }
-    },
-    // {
-    //   topRow: [f48, f49],
-    //   bottomRow: {
-    //     leftGrid: [f50, f51, f52],
-    //     rightImage: f53
-    //   }
-    // },
-    // {
-    //   topRow: [f54, f55],
-    //   bottomRow: {
-    //     leftGrid: [f56, f57, f58],
-    //     rightImage: f59
-    //   }
-    // },
-    // {
-    //   topRow: [f60, f61],
-    //   bottomRow: {
-    //     leftGrid: [f62, f63, f64],
-    //     rightImage: f65
-    //   }
-    // },
-    {
       topRow: [f66, f67],
       bottomRow: {
-        leftGrid: [f68, f21, f2],
+        leftGrid: [f68, f21, f8],
         rightImage: f46
       }
     },

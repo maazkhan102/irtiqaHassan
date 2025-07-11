@@ -38,7 +38,7 @@ const Retail = () => {
   return (
     <>
         <Banner
-  className="bannerMaincommercial"
+  className="bannerMainretail"
   title={
     <>
       Bespoke Design. Impeccable Detail. Timeless Luxury

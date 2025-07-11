@@ -39,20 +39,20 @@ import a32 from "../../assets/finalImages/architectural/a32.png";
 
 
 
-
+// a31, a10 , a19 , a14
 const Architecture = () => {
   const imageGridSections = [
     {
       topRow: [a22, a23],
       bottomRow: {
-        leftGrid: [a31, a25, a26],
+        leftGrid: [ a20 , a25, a26],
         rightImage: a27
       }
     },
     {
       topRow: [a28, a19],
       bottomRow: {
-        leftGrid: [a30, a31, a32],
+        leftGrid: [a30, a11 , a32],
         rightImage: a8
       }
     },
@@ -66,22 +66,8 @@ const Architecture = () => {
     {
       topRow: [a7, a8],
       bottomRow: {
-        leftGrid: [a9, a10, a11],
+        leftGrid: [a9, a11 , a21],
         rightImage: a12
-      }
-    },
-    {
-      topRow: [a27, a14],
-      bottomRow: {
-        leftGrid: [a15, a16, a17],
-        rightImage: a18
-      }
-    },
-    {
-      topRow: [a19, a20],
-      bottomRow: {
-        leftGrid: [a21, a3, a11],
-        rightImage: a14
       }
     }
   ];

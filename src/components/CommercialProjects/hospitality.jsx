@@ -66,16 +66,16 @@ const Hospitality = () => {
     },
     {
         topRow: [h24, h25],
-        // bottomRow: {
-        //   leftGrid: [h20, h21, h22],
-        //   rightImage: h23
-        // }
+        bottomRow: {
+          leftGrid: [h20, h21, h22],
+          rightImage: h23
+        }
     }
   ];
   return (
     <>
         <Banner
-  className="bannerMaincommercial"
+  className="bannerMainhospitality"
   title={
     <>
       Bespoke Design. Impeccable Detail. Timeless Luxury

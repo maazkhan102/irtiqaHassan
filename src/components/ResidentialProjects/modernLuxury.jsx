@@ -89,7 +89,7 @@ const ModernLuxury = () => {
   return (
     <>
         <Banner
-  className="bannerMainresidential"
+  className="bannerMainmodernLuxury"
   title={
     <>
       Bespoke Design. Impeccable Detail. Timeless Luxury

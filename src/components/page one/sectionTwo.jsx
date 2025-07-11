@@ -16,7 +16,7 @@ const PageOneSectionTwo = () => {
         1: commercialbg,
         2: architecturebg,
         3: furniturebg,
-        default: luxuryhotel,
+        default: residentialbg,
     };
 
     const data = [

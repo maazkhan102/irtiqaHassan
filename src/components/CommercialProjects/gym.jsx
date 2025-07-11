@@ -40,7 +40,7 @@ const Gym = () => {
   return (
     <>
         <Banner
-  className="bannerMaincommercial"
+  className="bannerMaingym"
   title={
     <>
       Bespoke Design. Impeccable Detail. Timeless Luxury

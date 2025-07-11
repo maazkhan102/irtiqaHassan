@@ -9,34 +9,53 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import test2 from "../../assets/test-2.jpg"
 import test3 from "../../assets/test-3.jpg"
 import test4 from "../../assets/test-4.jpg"
+import co11 from "../../assets/finalImages/corporate/co7.jpg"
+import ml1 from '../../assets/finalImages/modernLuxury/ml7.jpg'
+import co1 from '../../assets/finalImages/corporate/co8.jpg'
+import ml2 from '../../assets/finalImages/modernLuxury/ml2.jpg'
+import ml3 from '../../assets/finalImages/modernLuxury/ml14.jpg'
+import co2 from '../../assets/finalImages/corporate/co5.jpg'
+
 
 const PageOneSectionFour = () => {
     const swiperRef = useRef(null);
     const slides = [
         {
-            img: hs1,
-            text: "Our experience with IHI was truly remarkable. Their attention to detail and commitment to quality made the entire process seamless and stress-free.",
-            by: "Ali Raza",
-            address: "4 BHK Apartment, Clifton, Karachi"
+            img: co11,
+            text: "I just wanted to take a moment to express my sincere gratitude for the amazing work that you did on my office and your attention to detail and creativity really transformed the space into a beautiful and functional environment.",
+            by: "Mr. Asif Peer",
+            address: "CEO - Systems Ltd."
         },
         {
-            img: test2,
-            text: "IHI transformed our dream home into reality. The 10-year maintenance warranty gives us peace of mind, knowing our home is in expert hands.",
-            by: "Sarah Khan",
-            address: "5 BHK Duplex, Bahria Town, Karachi"
+            img: ml1,
+            text: "Thank you and your team for your good work Irtiqa, everyone likes it.",
+            by: "Mr. Humayun Saeed",
+            address: "Actor"
         },
         {
-            img: test3,
-            text: "From planning to execution, everything was flawless. The professionalism and transparency of IHI exceeded our expectations.",
-            by: "Omer Javed",
-            address: "3 BHK Penthouse, Emaar Oceanfront, Karachi"
+            img: co1,
+            text: "High Regards & a sincere thanks for all the innovative designing work, IHI has done for us in creating our Zaitoon Ashraf Information Technology Park by Saylani Welfare. We love it and were continually impressed by your professionalism, attention to detail, care and the support you provided us during this project. You have a professional team. You made the process so easy for us and we are very grateful.",
+            by: "Mr. Afzal Chamdia",
+            address: "Manager and acting Head of Development Department - Saylani IT Park"
         },
         {
-            img: test4,
-            text: "Choosing IHI was the best decision for our home construction. Their dedication and after-sales support are unmatched in the industry.",
-            by: "Ayesha Sheikh",
-            address: "6 BHK Villa, D.H.A Phase 8, Karachi"
+            img: ml2,
+            text: "IHI & Team had done various project for Emaar Pakistan that included Tower Lobbies, Amenity Areas, Children Play areas. They had done a tremendous job in achieving the project charter and bringing the best results the way we demanded. We can now entertain our residents and achieve their satisfaction level by enabling them to enjoy the promised lifestyle within Emaar. I wish Irtiqa & IHI Team best of luck for their future endeavor.",
+            by: "Mrs. Rabiva",
+            address: "Emaar"
         },
+        {
+            img: ml3,
+            text: "Working with Irtiqa and team has been a great experience. The team is very through and extremely professional from start to finish we didn't have to worry about a thing couldn't be happier with how our spaces turned out! Thanks for making our house into a home and going out of the way to include my love for birds.",
+            by: "Mrs. Zulekha Tabba Ali",
+            address: ""
+        },
+        {
+            img: co2,
+            text: "It has been a pleasure working with Irtiqa, she was able to understand our style and ideas. We are happy with the way she translated our design into interior space",
+            by: "Mrs. Nargis Shahid Soorty",
+            address: "Soorty Textiles"
+        }
     ];
 
 

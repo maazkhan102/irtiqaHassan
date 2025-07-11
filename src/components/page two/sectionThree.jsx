@@ -14,7 +14,7 @@ const PageTwoSectionThree = () => {
                 <span className="text-[35px] md:text-[45px] nigelina uppercase text-[#515151] relative">
                     <span className="absolute top-[50%] -left-20 w-[50px] h-[2px] bg-[#C0A07A]" />
                     <span className="hidden md:flex absolute top-[50%] -right-20 w-[50px] h-[2px] bg-[#C0A07A]" />
-                    Explore your retreat
+                    Delve into the Craft
                 </span>
             </div>
             <div className="h-full flex flex-col items-center justify-center gap-10">

@@ -26,4 +26,21 @@
 .bannerMainparisian{
     background-image: url("../src/assets/parisianBG.jpg");
 }
-/* Banner Section css end */
+.bannerMainmodernLuxury{
+    background-image: url("../src/assets/finalImages/modernLuxury/ml12.jpg");
+}
+.bannerMainsalon{
+    background-image: url("../src/assets/finalImages/salon/s23.jpg");
+}
+.bannerMaingym{
+    background-image: url("../src/assets/finalImages/gym/g8.jpg");
+}
+.bannerMaincorporate{
+    background-image: url("../src/assets/finalImages/corporate/co4.jpg");
+}
+.bannerMainhospitality{
+    background-image: url("../src/assets/finalImages/hospitality/5.jpg");
+}
+.bannerMainretail{
+    background-image: url("../src/assets/finalImages/retail/10.jpg");
+}
